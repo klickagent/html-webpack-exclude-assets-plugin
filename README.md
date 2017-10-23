@@ -1,4 +1,4 @@
-Exclude Assets extension for the HTML Webpack Plugin
+Exclude Chunks extension for the HTML Webpack Plugin
 ========================================
 [![npm version](https://badge.fury.io/js/html-webpack-exclude-assets-plugin.svg)](https://badge.fury.io/js/html-webpack-exclude-assets-plugin) [![Build Status](https://travis-ci.org/jamesjieye/html-webpack-exclude-assets-plugin.svg?branch=master)](https://travis-ci.org/jamesjieye/html-webpack-exclude-assets-plugin) [![js-semistandard-style](https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg?style=flat-square)](https://github.com/Flet/semistandard)
 
