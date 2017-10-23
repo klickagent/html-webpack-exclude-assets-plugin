@@ -11,7 +11,7 @@ HtmlWebpackExcludeAssetsPlugin.prototype.apply = function (compiler) {
   // Hook into the html-webpack-plugin processing
   compiler.plugin('compilation', function (compilation) {
     compilation.plugin('html-webpack-plugin-alter-asset-tags', function (htmlPluginData, callback) {
-      var excludeAssets = htmlPluginData.plugin.options.excludeAssets;
+      var excludeAssets = htmlPluginData.plugin.options.excludeChunks;
       // Skip if the plugin configuration didn't set `excludeAssets`
       if (!excludeAssets) {
         return callback(null, htmlPluginData);
